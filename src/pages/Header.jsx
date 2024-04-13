@@ -2,6 +2,7 @@ import React from 'react'
 import './Header.css'
 import NavListitem from '../components/NavListitem'
 import navListData from '../data/navListData';
+import Search from '../components/Search';
 
 const Header = () => {
   return (
@@ -16,6 +17,7 @@ const Header = () => {
         ))
         }
       </ul>
+      <Search />
     </header>
   );
 }
