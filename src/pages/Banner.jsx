@@ -18,7 +18,9 @@ const Banner = () => {
     
   return (
     <div className="banner">
-
+        <div className="movie">
+            
+        </div>
     </div>
   )
 }
