@@ -18,11 +18,21 @@ const Banner = () => {
     
   return (
     <div className="banner">
-        <div className="movie">
-            
+      <div className="movie">
+        <img src="" alt="Background-img" className="bgImg" />
+        <div className="container-fluid">
+          <div className="row">
+            <div className="col-lg-6 col-md-12">
+              <div className="content"></div>
+            </div>
+           <div className="col-lg-6 col-md-12">
+
+           </div>
+          </div>
         </div>
+      </div>
     </div>
-  )
+  );
 }
 
 export default Banner
