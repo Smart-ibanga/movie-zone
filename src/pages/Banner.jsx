@@ -24,9 +24,10 @@ const Banner = () => {
         <div className="container-fluid">
           <div className="row">
             <div className="col-lg-6 col-md-12">
-              <div className="content">
+              <div className="content active">
                 <img src="" alt="Movie Title" className="movie-title" />
-                <h4><span>Year</span>
+                <h4>
+                  <span>Year</span>
                     <span>
                       <i>age</i>
                     </span>
@@ -40,9 +41,11 @@ const Banner = () => {
                 </p>
                 <div className="button">Button</div>
               </div>
-            </div>
+                                                                                                                                                                                                                                                                   </div>
            <div className="col-lg-6 col-md-12">
-
+              <div className="date">
+                <h2>On 15th August</h2>
+              </div>
            </div>
           </div>
         </div>
