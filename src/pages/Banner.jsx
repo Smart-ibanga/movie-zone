@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import './banner.css'
+import bgImg from '../images/bg-transformer.jpg';
 
 const Banner = () => {
     const [movies, setMovies] = useState ([]);
@@ -19,7 +20,7 @@ const Banner = () => {
   return (
     <div className="banner">
       <div className="movie">
-        <img src="" alt="Background-img" className="bgImg" />
+        <img src={bgImg} alt="Background-img" className="bgImg active" />
         <div className="container-fluid">
           <div className="row">
             <div className="col-lg-6 col-md-12">
@@ -37,6 +38,7 @@ const Banner = () => {
                   sapiente ipsa rerum! Nobis magnam deleniti fugit ratione, 
                   impedit quasi quod placeat quas? Repudiandae.
                 </p>
+                <div className="button">Button</div>
               </div>
             </div>
            <div className="col-lg-6 col-md-12">
