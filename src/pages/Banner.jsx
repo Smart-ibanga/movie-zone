@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import './banner.css'
 import bgImg from '../images/bg-transformer.jpg';
+import titleImg from '../images/transformer-title.png'
 
 const Banner = () => {
     const [movies, setMovies] = useState ([]);
@@ -25,7 +26,7 @@ const Banner = () => {
           <div className="row">
             <div className="col-lg-6 col-md-12">
               <div className="content active">
-                <img src="" alt="Movie Title" className="movie-title" />
+                <img src={titleImg} alt="Movie Title" className="movie-title" />
                 <h4>
                   <span>Year</span>
                     <span>
