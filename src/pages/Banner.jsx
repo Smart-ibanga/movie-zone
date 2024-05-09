@@ -44,8 +44,14 @@ const Banner = () => {
               </div>
                                                                                                                                                                                                                                                                    </div>
            <div className="col-lg-6 col-md-12">
-              <div className="date">
+              <div className="date active">
                 <h2>On 15th August</h2>
+              </div>
+              <div className="trailer">
+                <a href="#" className="playBtn">
+                  <ion-icon name="play-outline"></ion-icon>
+                </a>
+                <p>Watch Trailer</p>
               </div>
            </div>
           </div>
