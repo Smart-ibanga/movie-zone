@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react'
 import './banner.css'
 import bgImg from '../images/bg-transformer.jpg';
 import MovieContent from '../components/MovieContent';
+import MovieDate from '../components/MovieDate';
+import PlayBtn from '../components/PlayBtn';
 
 
 
@@ -30,16 +32,9 @@ const Banner = () => {
               <MovieContent/>
             </div>                                                                                                                                                                                                                                                       </div>
            <div className="col-lg-6 col-md-12">
-              <div className="date active">
-                <h2>On 15th August</h2>
-              </div>
-              <div className="trailer d-flex align-items-center justify-content-center active">
-                <a href="#" className="playBtn">
-                  <ion-icon name="play-outline"></ion-icon>
-                </a>
-                <p>Watch Trailer</p>
-              </div>
-           </div>
+               <MovieDate />
+               <PlayBtn />
+            </div>  
           </div>
         </div>
       </div>

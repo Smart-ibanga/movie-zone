@@ -31,12 +31,12 @@
    border-right: 1px solid rgba(255, 255. 2555, 0.6);
 }
 
-.banner .content h4 span:firstchild {
-   padding-left: 0px;
+.banner .content h4 span:first-child {
+   padding-left: 0;
 }
 
-.banner .content h4 span:lastchild {
-   border-right: 0px;
+.banner .content h4 span:last-child {
+   border-right: 0;
 }
 
 .banner .content h4 span i {
